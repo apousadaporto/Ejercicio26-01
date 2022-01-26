@@ -1,2 +1,15 @@
 /* CSS COLOR */
 /* **************************************************************** */
+
+/* Variables */
+:root {
+
+    --backgroundColor: #eee;
+}
+
+
+header {
+
+    background-color: var(--backgroundColor);
+
+}

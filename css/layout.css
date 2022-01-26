@@ -1,4 +1,33 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* Variables */
+:root {
+
+    --margenExterno: 30px;
+    --logoAltura: 50px;
+    --longNav: 0.5;
+
+}
+
+/* Header */
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--margenExterno);
+
+}
+
+.logo {
+    height: var(--logoAltura);
+}
+
+nav {
+    flex-grow: var(--longNav);
+
+    display: flex;
+    justify-content: space-between;
+}
 
